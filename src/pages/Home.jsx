@@ -1,13 +1,10 @@
 import React from "react";
 import banner from "../assets/banner.jpg";
 import banner2 from "../assets/banner2.jpg";
-import { useNavigate } from "react-router-dom";
 
 
 const Home = () => {
-	const navigate = useNavigate();
 
-	
 	return (
 		<div>
 			<div className="flex flex-wrap gap-2 justify-center items-center my-5">
