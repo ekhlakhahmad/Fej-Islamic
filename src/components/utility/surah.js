@@ -798,3 +798,4 @@ const surah = [
 		totalRukus: 1,
 	},
 ];
+export default surah;
