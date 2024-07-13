@@ -3,7 +3,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import SurahEng from "./pages/SurahEng";
+import SurahDataPage from "./pages/SurahDataPage";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
 	return (
@@ -12,7 +13,8 @@ const App = () => {
 				<Header />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/surahEng" element={<SurahEng />} />
+					<Route path="/surahDataPage" element={<SurahDataPage />} />
+					<Route path="/*" element={<NotFound />} />
 				</Routes>
 				<Footer />
 			</BrowserRouter>

@@ -8,7 +8,7 @@ const Home = () => {
 		<div>
 			<div className="flex flex-wrap gap-5 justify-center py-2">
 				<Link
-					to="/surahEng"
+					to="/surahDataPage"
 					className="md:w-[25%] w-[95%] flex justify-center items-center cursor-pointer">
 					<div>
 						<img className="w-full h-full" src={banner2} alt="" />
@@ -18,7 +18,7 @@ const Home = () => {
 					</div>
 				</Link>
 				<Link
-					to="/surahEng"
+					to="/surahDataPage"
 					className="md:w-[25%] w-[95%] flex justify-center items-center cursor-pointer">
 					<div>
 						<img className="w-full h-full" src={banner} alt="" />

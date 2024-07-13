@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { RiSingleQuotesL, RiSingleQuotesR } from "react-icons/ri";
 
-const SurahEng = () => {
+const SurahDataPage = () => {
 	const [surahData, setSurahData] = useState(surah);
 	const [index, setIndex] = useState(0);
   const navigate = useNavigate();
@@ -121,4 +121,4 @@ const SurahEng = () => {
 	);
 };
 
-export default SurahEng;
+export default SurahDataPage;
