@@ -29,12 +29,12 @@ const Home = () => {
 					</div>
 				</Link>
 				<Link
-					to="/surahDataPage"
+					to="/McqQuesPage"
 					className="md:w-[25%] w-[95%] flex justify-center items-center cursor-pointer">
 					<div>
 						<img className="w-full h-full" src={mcq} alt="" />
 						<h3 className=" w-full text-center p-2 bg-blue-900 text-white">
-							Show All Surah (Hindi)
+							MCQ Question Based on Holy Quran
 						</h3>
 					</div>
 				</Link>

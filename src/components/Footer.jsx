@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
 	return (
-		<div className="w-full flex flex-col justify-center items-center py-2 fixed bottom-0 bg-blue-950 text-white">
+		<div className="w-full flex flex-col justify-center items-center py-2 md:fixed sticky bottom-0 bg-blue-950 text-white">
 			<h2>Developed by: - Ekhlakh Ahmad</h2>
 			<div className="flex justify-center items-center gap-2">
 				❤️ Connect with me

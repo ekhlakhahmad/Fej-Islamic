@@ -38,8 +38,8 @@ const SurahDataPage = () => {
 	};
 
 	return (
-		<div className="flex flex-col items-center my-5 mx-auto gap-10">
-			<div className="md:w-1/2 w-[95%] flex justify-between items-center gap-1 border-[.5px] border-blue-900 rounded-full">
+		<div className="h-screen flex flex-col items-center my-5 mx-auto gap-10">
+			<div className="md:w-1/2 w-[95%] flex justify-between items-center gap-1 border-[.5px] border-blue-900 rounded-full ">
 				<CiSearch className="w-10" />
 				<input
 					className="w-full outline-none"
@@ -100,7 +100,7 @@ const SurahDataPage = () => {
 						disabled={index === 0}
 						className="py-2 px-3 bg-blue-900 hover:bg-blue-950 text-white rounded-md
            md:font-semibold">
-						Preview
+						Prev
 					</button>
 					<button
 						onClick={backToHome}
