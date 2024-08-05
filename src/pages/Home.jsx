@@ -1,6 +1,7 @@
 import React from "react";
 import banner from "../assets/banner.png";
 import banner2 from "../assets/banner2.png";
+import mcq from "../assets/MCQ.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -22,6 +23,16 @@ const Home = () => {
 					className="md:w-[25%] w-[95%] flex justify-center items-center cursor-pointer">
 					<div>
 						<img className="w-full h-full" src={banner} alt="" />
+						<h3 className=" w-full text-center p-2 bg-blue-900 text-white">
+							Show All Surah (Hindi)
+						</h3>
+					</div>
+				</Link>
+				<Link
+					to="/surahDataPage"
+					className="md:w-[25%] w-[95%] flex justify-center items-center cursor-pointer">
+					<div>
+						<img className="w-full h-full" src={mcq} alt="" />
 						<h3 className=" w-full text-center p-2 bg-blue-900 text-white">
 							Show All Surah (Hindi)
 						</h3>
