@@ -38,7 +38,7 @@ const SurahDataPage = () => {
 	};
 
 	return (
-		<div className="h-screen flex flex-col items-center my-5 mx-auto gap-10">
+		<div className="flex flex-col items-center my-5 mx-auto gap-10">
 			<div className="md:w-1/2 w-[95%] flex justify-between items-center gap-1 border-[.5px] border-blue-900 rounded-full ">
 				<CiSearch className="w-10" />
 				<input
